@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color-scheme: dark;
+}
+
+@font-face {
+  font-family: Font;
+  src: url(./fonts/Archivo.ttf);
+}
+
+body {
+  font-family: Font, sans-serif;
+  background: #000;
+}
+
+@keyframes rotate {
+  0%{
+    rotate: 0deg;
+  }
+
+  100%{
+    rotate: 360deg;
+  }
+}
+
+.animate-spin1 {
+  animation: infinite 37s rotate;
+}
