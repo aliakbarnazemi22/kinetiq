@@ -36,8 +36,8 @@ function HeroSection() {
               target="_blank"
               className="text-[16px] font-[400]"
             >
-              <button className="text-[16px] font-[400] py-2 px-12 border border-white rounded-full">
-                my cv
+              <button className="text-[16px] font-[400] py-2 px-12 border border-white rounded-full bg-transparent transition hover:bg-white hover:text-black">
+                <p className="mt-[-2px]">my cv</p>
               </button>
             </a>
           </div>
