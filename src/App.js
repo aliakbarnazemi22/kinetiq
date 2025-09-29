@@ -1,3 +1,4 @@
+import Blogs from "./components/Blogs";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Statics from "./components/Statics";
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <HeroSection />
         <Statics />
+        <Blogs />
       </div>
     </main>
   );

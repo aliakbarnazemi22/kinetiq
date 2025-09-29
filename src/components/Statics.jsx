@@ -28,7 +28,7 @@ function Statics() {
     },
   ];
   return (
-    <div className="container mx-auto max-w-[60%] py-12">
+    <div className="container mx-auto xl:max-w-[60%] py-12">
       <div className="mt-12 flex flex-col gap-8 xl:gap-0 xl:flex-row items-center justify-between">
         <h2 className="text-2xl md:text-3xl lg:text-6xl w-full xl:w-1/2 font-[800]">
           We make your business stand out
@@ -40,8 +40,8 @@ function Statics() {
         </p>
       </div>
 
-      <div className="flex items-center justify-start flex-col xl:flex-row xl:gap-6 2xl:gap-32 xl:py-16">
-        <img src="images/sec11.png" alt="" className="w-full xl:w-1/2" />
+      <div className="flex items-center justify-start flex-col md:flex-row xl:gap-6 2xl:gap-32 xl:py-16">
+        <img src="images/sec11.png" alt="" className="w-full md:w-1/2 lg:w-1/2" />
         <div className="flex flex-wrap justify-center gap-0 w-full xl:w-1/2">
           {items.map((item) => (
             <div className="card w-full md:w-1/2 my-4 md:my-9 flex flex-col gap-4 items-center justify-center" key={item.id}>

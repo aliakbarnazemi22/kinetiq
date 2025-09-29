@@ -39,3 +39,19 @@ body {
 .font2 {
     font-family: Font2 !important; 
 }
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform .6s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+
+.transition-2 {
+  transition: 0.6s;
+}
