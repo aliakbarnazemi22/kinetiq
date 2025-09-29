@@ -11,9 +11,15 @@
   src: url(./fonts/Archivo.ttf);
 }
 
+@font-face {
+  font-family: Font2;
+  src: url(./fonts/ClashDisplay-Semibold.woff2) format(woff2);
+}
+
 body {
   font-family: Font, sans-serif;
   background: #000;
+  overflow-x: hidden;
 }
 
 @keyframes rotate {
@@ -28,4 +34,8 @@ body {
 
 .animate-spin1 {
   animation: infinite 37s rotate;
+}
+
+.font2 {
+    font-family: Font2 !important; 
 }

@@ -9,7 +9,7 @@ function HeroSection() {
         className="absolute w-[70%] lg:w-[40%] h-[55%] object-cover right-[0px] md:right-auto top-[-60px] md:top-24 blur-sm md:blur-none"
       />
       <div className="absolute top-0 left-0 h-full z-10 p-16 lg:p-0 lg:mx-48 lg:my-12">
-        <h1 className="text-3xl leading-[1.4] md:text-6xl lg:text-5xl xl:text-5xl 2xl:text-[65px] font-bold lg:font-[900] lg:w-[65%] xl:w-[50%] w-full px-2 md:leading-[1.4] xl:leading-[1.4] mt-4">
+        <h1 className="text-3xl leading-[1.4] md:text-6xl lg:text-5xl xl:text-5xl 2xl:text-[60px] font-bold lg:font-[900] lg:w-[65%] xl:w-[50%] w-full px-2 md:leading-[1.4] xl:leading-[1.4] mt-4">
           Emotion-Driven Design: Building Brand Loyalty
         </h1>
         <div className="md:my-20 w-full py-8 lg:flex justify-between items-center">

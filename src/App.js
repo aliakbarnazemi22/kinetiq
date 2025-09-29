@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import Statics from "./components/Statics";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <div className="absolute w-[163px] md:w-[363px] max-w-[863px] rotate-[22deg] h-[40vw] z-[-1] top-[550px] right-12 md:right-40 bg-[#2d29ec] blur-[6.5vw] rounded-[50%]"></div>
         <Header />
         <HeroSection />
+        <Statics />
       </div>
     </main>
   );
